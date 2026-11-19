@@ -3,3 +3,5 @@
 .open-tab{border:1px solid #d7e3d7;background:#f2f7f1;color:#315f4b;border-radius:7px;padding:9px 12px;font-weight:800;font-size:11px;white-space:nowrap}@media(max-width:480px){.version{display:none}.open-tab{margin-left:auto;font-size:10px;padding:8px}}
 
 .playhead{position:absolute;top:0;bottom:0;width:2px;background:#b8664d;pointer-events:none;z-index:2;transform:translateX(-50%)}.playhead::before{content:"";position:absolute;top:0;left:-4px;width:10px;height:10px;border-radius:50%;background:#b8664d}
+
+.noise-panel{border:1px solid #e6ede4;background:#f9fbf8;border-radius:9px;padding:15px;margin-top:20px}.noise-title{font-weight:800;font-size:12px}.noise-title span{float:right;color:#91a794;letter-spacing:.09em;font-size:9px}.noise-panel p{margin:8px 0 12px}.noise-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.noise-controls label{font-size:10px;font-weight:800;color:#6c8573}.noise-controls input{width:110px;accent-color:#547d5d}.noise-progress{font-size:10px;color:#78947c;line-height:1.5;margin-top:7px}
